@@ -1,2 +1,8 @@
 pandas
 ipython
+ipykernel
+scikit-learn==1.4.1.post1
+altair 
+textblob
+seaborn==0.13.2
+matplotlib 

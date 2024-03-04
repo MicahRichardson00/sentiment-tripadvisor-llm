@@ -2,15 +2,24 @@
 
 Clone this repo:
 ```
-git clone https://github.com/wesslen/ner-tripadvisor-llm.git
+git clone https://github.com/MicahRichardson00/sentiment-tripadvisor-llm.git
 ```
 
 # Install
 
-Set up a virtual environment
+Set up a virtual environment.
+
+For Linux/MacOS:
 ```
-python3.9 -m venv venv
-source venv/bin/activate
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+For Windows:
+```
+python3 -m venv .venv
+.venv\Scripts\Activate
 python -m pip install -r requirements.txt
 ```
 
